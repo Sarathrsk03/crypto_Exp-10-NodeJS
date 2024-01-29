@@ -1,0 +1,45 @@
+<!-- signup.html -->
+
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Signup</h1>
+
+      <form action="/signup" method="POST">
+        <div class="input-container">
+          <input
+            type="text"
+            name="name"
+            placeholder="Username"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="input-container">
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="input-container">
+          <input type="submit" class="submit-button" value="Signup" />
+        </div>
+      </form>
+
+      <div class="login-link">
+        <a href="/">Go to login page</a>
+      </div>
+    </div>
+  </body>
+</html>
